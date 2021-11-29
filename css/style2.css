@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;500&family=Comfortaa:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Balsamiq+Sans:ital@1&family=Jura:wght@600&family=Kaushan+Script&family=Libre+Baskerville:wght@700&family=Mukta:wght@300&family=News+Cycle&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Quicksand:wght@300&family=Roboto:wght@300&family=Saira:ital,wght@1,100;1,800&family=Teko&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 204, 255);
+}
+
+a:hover {
+  color: rgb(0, 225, 255);
+}
+
+body {
+  background-color: rgb(56, 56, 56);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  padding: 1.5rem 3.5rem;
+  color: rgb(0, 238, 255);
+  font-family: "Quicksand", sans-serif;
+}
+
+nav a:hover {
+  color: rgb(0, 214, 203);
+  border-bottom: 2px solid rgb(0, 217, 255);
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+}
+
+nav ul li {
+  margin: 20px;
+}
+
+.conocimientos-titulo{
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+.conocimientos {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  padding-top: 5%;
+  background-color: rgb(25, 228, 255);
+    border-radius: 10px;
+    box-shadow: 0 3px 10px;
+    padding: 20px;
+    margin: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: center;
+  color: black;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 1.25rem;
+  margin: 2rem 0 0;
+  color: rgb(0, 204, 255);
+}
+
+@media only screen and (max-width: 600px) {
+}

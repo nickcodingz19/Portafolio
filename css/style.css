@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Balsamiq+Sans:ital@1&family=Jura:wght@600&family=Kaushan+Script&family=Libre+Baskerville:wght@700&family=Mukta:wght@300&family=News+Cycle&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Quicksand:wght@300&family=Roboto:wght@300&family=Saira:ital,wght@1,100;1,800&family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;500&family=Comfortaa:wght@300&display=swap');
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 204, 255);
+}
+
+a:hover{
+    color: rgb(0, 225, 255);
+}
+
+body{
+    background-color: rgb(56, 56, 56);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    padding: 1.5rem 3.5rem;
+    color: rgb(0, 238, 255);
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+nav a:hover{
+    color:rgb(0, 214, 203);
+    border-bottom: 2px solid rgb(0, 217, 255);
+}
+
+nav ul{
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li{
+    margin: 20px;
+}
+
+.informacion{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 67rem;
+    margin: auto;
+    padding: 0.5rem;
+    font-size:20px;
+    font-family: 'Comfortaa', cursive;
+
+    
+}
+
+.informacion-titulo{
+    margin-bottom: 2%;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+.mas-informacion{
+    text-align: center;
+    margin: auto;
+    padding: 0.5rem;
+    font-size:20px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(0, 217, 255);
+    padding: 4px;
+    text-align: center;
+    box-sizing: border-box;
+    
+  }
+  .grid-item {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    
+    
+  }
+
+.top-conocimientos{
+    text-align:center;
+    color: rgb(0, 217, 255);
+    font-family: 'Cairo';
+    font-family: 'Quicksand', sans-serif;
+    margin: auto;
+    max-width: 65rem;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 1.25rem;
+    margin: 2rem 0 0;
+    color: rgb(0, 204, 255);
+  }
+
+  @media only screen and (max-width: 600px) {
+      
+  }
+  
